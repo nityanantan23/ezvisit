@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtScan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/gradient_background"
+
+    app:cardCornerRadius="20dp"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appointmentbox"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardBackgroundColor="#F4BEBC"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="84dp">
+
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="15sp"
+            android:text="Richard knogight"
+
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_day_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15sp"
+            android:text="18/8/2020"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appointment_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="75sp"
+            android:text="Appoinment Info"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btnMoreinfo"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_vertical|end"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:background="@drawable/redbutton"-->
+        <!--            android:paddingLeft="20dp"-->
+        <!--            android:paddingRight="20dp"-->
+        <!--            android:text="More info"-->
+        <!--            android:textColor="#FFFFFF"-->
+        <!--            android:textSize="15sp" />-->
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="150dp"-->
+<!--    android:layout_marginTop="8dp"-->
+<!--    app:cardBackgroundColor="#01F14C"-->
+<!--    app:cardCornerRadius="20dp">-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/color_row"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        app:cardBackgroundColor="#43A047">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_day_row"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="19 Jun"-->
+<!--            android:textColor="#FFFFFF" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_time_row"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="280dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="7:12"-->
+<!--            android:textColor="#FFFFFF" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="158dp"-->
+<!--        android:background="#FFFFFF"-->
+<!--        android:outlineAmbientShadowColor="@color/cardview_dark_background"-->
+<!--        android:padding="8dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/appointment_info"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="22dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="Appointment info"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#656464"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/doctor_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="35dp"-->
+<!--            android:layout_marginBottom="92dp"-->
+<!--            android:text="Doctor name"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#1976D2"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/divider"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginBottom="74dp"-->
+<!--            android:background="?android:attr/listDivider" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--</androidx.cardview.widget.CardView>-->

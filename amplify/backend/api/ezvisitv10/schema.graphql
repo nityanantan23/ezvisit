@@ -1,0 +1,13 @@
+type Deliver @model {
+  id: ID!
+  doctorName: String!
+  appointmentInfo: String
+  visitPurpose: String
+  arrivalDatetime: String
+  checkInDatetime: String
+  temp: String
+  appointmentTime: String
+  appointmentDate: String
+  faceId: String
+  userName: String
+}

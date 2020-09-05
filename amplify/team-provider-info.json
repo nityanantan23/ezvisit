@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ezvisitv10-dev-192118-authRole",
+      "UnauthRoleArn": "arn:aws:iam::508127000689:role/amplify-ezvisitv10-dev-192118-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::508127000689:role/amplify-ezvisitv10-dev-192118-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ezvisitv10-dev-192118-deployment",
+      "UnauthRoleName": "amplify-ezvisitv10-dev-192118-unauthRole",
+      "StackName": "amplify-ezvisitv10-dev-192118",
+      "StackId": "arn:aws:cloudformation:us-east-1:508127000689:stack/amplify-ezvisitv10-dev-192118/9bfa7850-e920-11ea-9229-127f049a8fed",
+      "AmplifyAppId": "dfpkp7xsizdvk"
+    },
+    "categories": {
+      "auth": {
+        "ezvisitv106b71cd54": {}
+      }
+    }
+  }
+}

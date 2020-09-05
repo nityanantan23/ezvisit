@@ -1,0 +1,61 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateDeliver(
+  $input: CreateDeliverInput!
+  $condition: ModelDeliverConditionInput
+) {
+  createDeliver(input: $input, condition: $condition) {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateDeliver(
+  $input: UpdateDeliverInput!
+  $condition: ModelDeliverConditionInput
+) {
+  updateDeliver(input: $input, condition: $condition) {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteDeliver(
+  $input: DeleteDeliverInput!
+  $condition: ModelDeliverConditionInput
+) {
+  deleteDeliver(input: $input, condition: $condition) {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}

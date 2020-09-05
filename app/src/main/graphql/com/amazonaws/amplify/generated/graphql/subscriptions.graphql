@@ -1,0 +1,52 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateDeliver {
+  onCreateDeliver {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateDeliver {
+  onUpdateDeliver {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteDeliver {
+  onDeleteDeliver {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}

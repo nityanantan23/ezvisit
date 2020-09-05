@@ -1,0 +1,42 @@
+# this is an auto generated file. This will be overwritten
+query GetDeliver($id: ID!) {
+  getDeliver(id: $id) {
+    id
+    doctorName
+    appointmentInfo
+    visitPurpose
+    arrivalDatetime
+    checkInDatetime
+    temp
+    appointmentTime
+    appointmentDate
+    faceId
+    userName
+    createdAt
+    updatedAt
+  }
+}
+query ListDelivers(
+  $filter: ModelDeliverFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listDelivers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      doctorName
+      appointmentInfo
+      visitPurpose
+      arrivalDatetime
+      checkInDatetime
+      temp
+      appointmentTime
+      appointmentDate
+      faceId
+      userName
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
